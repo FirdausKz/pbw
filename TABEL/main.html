@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel</title>
+</head>
+
+<body>
+    <h1>FORM INPUT MAHASISWA</h1>
+    <form>
+        <table border="1" cellpadding="7px" cellspacing="0px">
+            <tr>
+                <th > NIM </th>
+                <td> : </td>
+                <td> <input type="text" placeholder="Isikan Nim " name="nama" > </td>
+            </tr>
+            <tr>
+                <th> NAMA </th>
+                <td> : </td>
+                <td> <input type="text" placeholder="Isikan Nama " name="nama"> </td>
+            </tr>
+            <tr>
+                <th>  ALAMAT</th>
+                <td> : </td>
+                <td> <textarea rows="3" cols="20" placeholder="Isikan Alamat Kamu"></textarea  ></td>
+            </tr>
+            <tr>
+                <th> PROGRAM STUDI </th>
+                <td> : </td>
+                <td>
+                    <select name="prodi">
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                        <option value="dkv">Dasar Komunikasi Visual</option>
+                        <option value="tm">Teknik Mesin</option>
+                        <option value="feb">Ekonomi & Bisnis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th> JENIS KELAMIN </th>
+                <td> : </td> 
+                <td>
+                <input type="radio" name="gender" value="l" >Laki - laki
+                <br>
+                <input type="radio" name="gender" value="p">Perempuan
+            </td>
+            </tr>
+            <tr>
+                <th> NO HANDPHONE </th>
+                <td> : </td>
+                <td> <textarea rows="3" cols="20" placeholder="Isikan No Handphone"></textarea></td>
+            </tr>
+            <tr>
+                <th rowspan="2"> DOSEN </th>
+                <td rowspan="2"> :   </td>
+                <th style="text-align: left;"> DOSEN WALI    : <input type="text" placeholder="Isikan Dosen wali " name="nama"> </th> 
+            </tr>
+            <tr>
+                <th> DOSEN PEMBIMBING : <input type="text" placeholder="Isikan Dosen Pembimbing " name="nama"></th>
+                  
+            </tr>
+            <tr >
+                <td colspan="3" style="text-align: center;">
+                    <button type="submit">SIMPAN</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <h1 style=font-weight:bold>TABEL MAHASISWA</h1>
+    <table cellpadding="10px" style="
+        border-spacing: 0px;
+      " border="1">
+        <tr>
+            <th rowspan="2">Nim</th>
+            <th rowspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+            <th rowspan="2">Program Studi</th>
+            <th rowspan="2">Jenis Kelamin</th>
+            <th rowspan="2">No hp</th>
+            <th colspan="2">Dosen</th>
+        <tr>
+            <th>Dosen Wali</th>
+            <th>Dosen Pembimbing</th>
+        </tr>
+        </tr>
+        <tr>
+            <td valign="top">A11.2023.15359</td>
+            <td valign="top">Firdaus Khotibul Z</td>
+            <td valign="top">Jalan Slamet</td>
+            <td valign="top">Teknik Informatika</td>
+            <td valign="top">Laki-Laki</td>
+            <td>
+                085155487647
+                <br />
+                085177676572
+                <br />
+                085155473826
+            </td>
+            <td>Pak Budi</td>
+            <td>Pak Hartono</td>
+        </tr>
+        <tr>
+            <td valign="top">A11.2023.15331</td>
+            <td valign="top">Bernard Year</td>
+            <td valign="top">Jalan Sutomo</td>
+            <td valign="top">Teknik Informatika</td>
+            <td valign="top">Laki-Laki</td>
+            <td>
+                085727275852
+                <br />
+                085272728912
+                <br />
+                085727273092
+            </td>
+            <td>Pak Usman</td>
+            <td>Pak Niam</td>
+        </tr>
+        <tr>
+            <td valign="top">A11.2023.18712</td>
+            <td valign="top">greyyaano</td>
+            <td valign="top">jalan Riyadi</td>
+            <td valign="top">Bahasa Arab</td>
+            <td valign="top">Laki-Laki</td>
+            <td>
+                085155423456
+                <br />
+                085155487654
+                <br />
+                085155487654
+            </td>
+            <td>Pak Heri</td>
+            <td>Pak Hendry</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel</title>
+</head>
+
+<body>
+    <h1>FORM INPUT MAHASISWA</h1>
+    <form>
+    <table cellpadding="10px" style="
+        border-spacing: 0px;
+        width: 100%;
+      " border="1">
+        <!-- Judul row tabel-->
+        <tr>
+            <th rowspan="2">Nim</th>
+            <th rowspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+            <th rowspan="2">Program Studi</th>
+            <th rowspan="2">Jenis Kelamin</th>
+            <th rowspan="2">No hp</th>
+            <th colspan="2">Dosen</th>
+        <tr>
+            <th>Dosen Wali</th>
+            <th>Dosen Pembimbing</th>
+        </tr>
+        <!-- Isi Forum-->
+        <tr>
+            <td valign="top"><input type="text" placeholder="Isikan Nim Kamu" name="nama"></p></td>
+            <td valign="top"><input type="text" placeholder="Isikan Nim Kamu" name="nama"></p></td>
+            <td valign="top"><textarea rows="3" cols="20" placeholder="Isikan Alamat Kamu"></textarea></td>
+            <td valign="top">
+                <select name="prodi">
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                    <option value="dkv">Dasar Komunikasi Visual</option>
+                    <option value="tm">Teknik Mesin</option>
+                    <option value="feb">Ekonomi & Bisnis</option>
+                </select>
+            </td>
+            <td valign="top">
+                <input type="radio" name="gender" value="l">Laki - laki
+                <br>
+                <input type="radio" name="gender" value="p">Perempuan
+            </td>
+            <td>
+                <textarea rows="3" cols="20" placeholder="Isikan No Handphone"></textarea>
+            </td>
+            <td><input type="text" placeholder="Isikan Nama Dosen" name="nama"></td>
+            <td><input type="text" placeholder="Isikan Nama Dosen" name="nama"></td>
+        </tr>
+        <!-- buttom submit-->
+         <tr>
+            <td colspan="8" style="text-align: center;">
+                <button type="submit">
+                    SIMPAN
+                </button>
+            </td>
+         </tr>
+    </table>
+</form>
+</body>
+
+</html>
